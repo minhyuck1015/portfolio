@@ -1,13 +1,99 @@
 *{margin: 0; padding: 0;}
 ul li{list-style: none;}
-a{text-decoration: none;}
+a{text-decoration: none; color: #333;}
 .img{
     width: 1320px;
     margin: auto;
 }
 .bg{
-    height: 100%;
+    height: 15940px;
     background: url(../images/background.jpg) no-repeat center top;
     background-attachment: fixed;
     position: relative;
+}
+.bg{
+    height: 15940px;
+    background: url(../images/background.jpg) no-repeat center top;
+    background-attachment: fixed;
+    position: relative;
+}
+.bg2{
+    height: 13160px;
+    background: url(../images/background.jpg) no-repeat center top;
+    background-attachment: fixed;
+    position: relative;
+}
+.return{
+    position: absolute;
+    right: 320px;
+    bottom: 50px;
+    font-family: 'IBMPlexSansKR-Medium';
+    font-size: 20px;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 1s;
+    background-color: #fff;
+}
+.return:hover{
+    color: #fff;
+    background-color: #22365b;
+}
+.return2{
+    position: absolute;
+    right: 440px;
+    bottom: 50px;
+    font-family: 'IBMPlexSansKR-Medium';
+    font-size: 20px;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 1s;
+    background-color: #fff;
+}
+.return2:hover{
+    color: #fff;
+    background-color: #22365b;
+}
+.return3{
+    position: absolute;
+    right: 320px;
+    bottom: 50px;
+    font-family: 'IBMPlexSansKR-Medium';
+    font-size: 20px;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 1s;
+    background-color: #fff;
+}
+.return3:hover{
+    color: #fff;
+    background-color: #22365b;
+}
+.return4{
+    position: absolute;
+    right: 440px;
+    bottom: 50px;
+    font-family: 'IBMPlexSansKR-Medium';
+    font-size: 20px;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 1s;
+    background-color: #fff;
+}
+.return4:hover{
+    color: #fff;
+    background-color: #22365b;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
