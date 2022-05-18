@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>Dollytour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!--이벤트css-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--이벤트css-->
+
+    <!--header제이쿼리-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!--header제이쿼리-->
+    
+    <!--sns제이쿼리-->
+    <link rel="stylesheet" type="text/css" href="js/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick-theme_.css">
+    <!--sns제이쿼리-->
+
+    <!--카메라슬라이드css(링크),제이쿼리(스크립트)-->>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <!--슬라이드제이쿼리-->>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1><a href="#" class="logo"><img src="images/logo.png" alt=""></a></h1>
+            <ul class="nav">
+                <li><a href="sub/about.html">About
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub5">
+                                <li><a href="sub/about.html">DollyTour는</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="sub/trip.html">여행상품
+                   <!-- <div class="panel header">
+                         <div class="mar">
+                            <ul class="sub sub1">
+                                <li><a href="sub/trip_sub01.html">제주</a></li>
+                                <li><a href="sub/trip_sub01.html">부산</a></li>
+                                <li><a href="sub/trip_sub01.html">강원</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="sub/camera.html">카메라
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub2">
+                                <li><a href="sub/camera.html">Dolly's카메라</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="sub/event.html">이벤트
+                     <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub3">
+                                <li><a href="sub/event.html">진행중인 이벤트</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="sub/message.html">후기
+                    <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub4">
+                                <li><a href="sub/message.html">후기</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+            </ul>
+            <div class="panel header">
+                <div class="mar">
+                    <div class="mar_inner">
+                        <ul class="sub sub5">
+                            <li><a href="sub/about.html">DollyTour는</a></li>
+                        </ul>
+                        <ul class="sub sub1">
+                            <li><a href="sub/trip_sub01.html">제주</a></li>
+                            <li><a href="sub/trip_sub01.html">부산</a></li>
+                            <li><a href="sub/trip_sub01.html">강원</a></li>
+                        </ul>
+                        <ul class="sub sub2">
+                            <li><a href="sub/camera.html">Dolly's카메라</a></li>
+                        </ul>
+                        <ul class="sub sub3">
+                            <li><a href="sub/event.html">진행중인 이벤트</a></li>
+                        </ul>
+                        <ul class="sub sub4">
+                            <li><a href="sub/message.html">후기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(function(){
+                            $(".panel").hide();
+                            $(".nav li").mouseenter(function(){
+                                $(".panel").stop().slideDown();
+                            });
+                            $("#header").mouseleave(function(){
+                            $(".panel").stop().slideUp();
+                             });
+                         });
+            </script>
+           <!--<script>
+                $(function(){
+                    $(".nav a").mouseover(function(){
+                        $(".panel").stop()
+                        .slideDown();
+                    });
+        
+                    $(".nav a").mouseout(function(){
+                        $(".panel").stop()
+                        .slideUp();
+                    });
+                });
+            </script>-->
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+    <!--video banner-->
+	<script src="js/jquery.vide.js"></script>
+    <div id="banner">
+        <div style="height: 740px;" data-vide-bg="video/main_media" data-vide-options="position:center 50%">
+        </div>	
+   </div>
+    
+    <div id="event">
+        <div class="title_box">
+            <h1 class="title">Dolly's 이벤트</h1>
+        </div>
+        <h2 class="title_bottom">
+            DollyTour만의 특별한 이벤트
+        </h2>
+        <img src="images/polar.png" alt="polar" class="polar">
+        <div class="event_box">
+            <div class="banner">
+                    <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="sub/event_sub02.html"><img src="images/banner02.jpg" alt="banner"></a></div>
+                        <div class="swiper-slide"><a href="sub/event_sub01.html"><img src="images/banner03.jpg" alt="banner"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="images/banner01.jpg" alt="banner"></a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+  
+                <!-- Swiper JS -->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    pagination: {
+                        el: ".swiper-pagination",
+                    },
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="more">
+            <a href="sub/event.html">더보러가기</a>
+        </div>
+    </div>
+
+    <div id="trip">
+        <div class="trip_inner">
+            <div class="trip_box">
+                <h1 class="title">Dolly's 여행</h1>
+            </div>
+            <h2 class="trip_bottom">
+                DollyTour가 추천하는 여행코스
+            </h2>
+            <ul class="place_inner">
+                <li class="place1"><a href="#tab01">부산</a></li>
+                <li class="place2"><a href="#tab02">제주</a></li>
+                <li class="place3"><a href="#tab03">강원</a></li>
+            </ul>
+            <div class="tabcontent">
+                <div id="tab01"><img src="images/trip.png" alt=""></div>
+                <div id="tab02"><img src="images/trip_2.png" alt=""></div>
+                <div id="tab03"><img src="images/trip_3.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!--탭스크립트-->
+    <script>
+        $(function(){
+        $('.tabcontent > div').hide();
+        $('.place_inner a').click(function () {
+        $('.tabcontent > div').hide().filter(this.hash).fadeIn();
+        $('.place_inner a').removeClass('active');
+        $(this).addClass('active');
+        return false;
+         }).filter(':eq(0)').click();
+        });
+    </script>
+    <!--탭스크립트-->
+
+    <div id="about">
+        <div class="about_text">
+            <p class="p1">About us</p>
+            <p class="p2"><span class="p2_big">추억</span>이 가득한 <span class="p2_big">여행</span></p>
+            <p class="p3">A trip full of memorise</p>
+            <p class="p4">그 순간만 기억나는 여행이 아닌 평생 간직할 추억으로 남는 여행을 <br>만들어 드리고 싶습니다.</p>
+        </div>
+    </div>
+
+    <div id="camera">
+        <div class="camera_box">
+            <h1 class="title">Dolly's 카메라</h1>
+        </div>
+        <h2 class="camera_bottom">
+            DollyTour의 대여 카메라
+        </h2>
+        <div class="camera_text1">
+            <div class="canon" data-aos="fade-right" data-aos-duration="1500">
+                <div class="canon_img"></div>
+            </div>
+            <div class="sony" data-aos="fade-left" data-aos-duration="1500">
+                <div class="sony_img"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sns">
+        <div class="sns_inner">
+            <div class="sns_box">
+                <h1 class="title">Dolly's 후기</h1>
+            </div>
+            <h2 class="sns_bottom">
+                DollyTour의 이 달의 후기
+            </h2>
+            <div class="sns_text">
+                <p><span class="sns_ibm">DollyTour</span>의<br><span class="sns_lotte">특별한 <span class="sns_42px">여행</span></span>들을<br><span class="sns_line">구경하세요!</span></p>
+                <a href="#" class="sns_button">바로가기</a>
+            </div>
+            <div class="sns_insta">
+                <section class="regular slider">
+                    <div>
+                      <a href="sub/message.html"><img src="images/insta05.png"></a>
+                    </div>
+                    <div>
+                      <a href="sub/message.html"><img src="images/insta02.png"></a>
+                    </div>
+                    <div>
+                      <a href="sub/message.html"><img src="images/insta04.png"></a>
+                    </div>
+                    <div>
+                      <a href="sub/message.html"><img src="images/insta01.png"></a>
+                    </div>
+                    <div>
+                      <a href="sub/message.html"><img src="images/insta03.png"></a>
+                    </div>
+                </section>
+
+
+                <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+                <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+                <script type="text/javascript">
+                  $(document).on('ready', function() {
+                  $(".regular").slick({infinite: true , /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */         
+                  slidesToShow: 3, /* 화면에 보여질 이미지 갯수*/        
+                  slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */         
+                  autoplay: true, /* 자동으로 다음이미지 보여주기 */         
+                  arrows: true, /* 화살표 */         
+                  /* dots:true,  아래점 */         
+                  autoplaySpeed:2000,/* 다음이미지로 넘어갈 시간 */         
+                  speed:1000 , /* 다음이미지로 넘겨질때 걸리는 시간 */         
+                  pauseOnHover:true, /* 마우스 호버시 슬라이드 이동 멈춤 */        
+                  //vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/        
+                         });
+              
+                  });
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="foot_inner">
+            <h1><a href="#"><img src="images/logo_footer.png" alt="logo" class="foot_logo"></a></h1>
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">여행약관·이용약관</a></li>
+                <li><a href="#">여행보험</a></li>
+                <li><a href="#">마케팅제휴문의</a></li>
+                <li><a href="#">온라인제휴안내</a></li>
+                <li><a href="#">여행플래너</a></li>
+            </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="foot_down">
+            <p class="foot_text">돌리투어대표 : 김민혁 ｜ 주소 : 부산광역시 중구 중앙대로 26 ｜ 이메일 : rlaalsgur1015@naver.com<br>
+            사업자등록번호 : 100-01-0000 ｜ 관광사업자 등록번호 : 제2022-000001호<br>
+            COPYRIGHT 1989-2019 DOLLYTOUR. ALL RIGHTS RESERVFD .</p>
+            <ul class="foot_sns">
+                <li><a href="#"><img src="images/instagram_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="images/youtube_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="images/facebook_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="images/twitter_footer.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

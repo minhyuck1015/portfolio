@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>Dollytour</title>
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!--header제이쿼리-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!--header제이쿼리-->
+
+    <!--카메라슬라이드css(링크),제이쿼리(스크립트)-->>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="../js/script.js"></script>
+    
+    <!--슬라이드제이쿼리-->>
+</head>
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1><a href="../index.html" class="logo"><img src="../images/logo.png" alt=""></a></h1>
+            <ul class="nav">
+                <li><a href="about.html">About
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub5">
+                                <li><a href="sub/about.html">DollyTour는</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="trip.html">여행상품
+                   <!-- <div class="panel header">
+                         <div class="mar">
+                            <ul class="sub sub1">
+                                <li><a href="sub/trip_sub01.html">제주</a></li>
+                                <li><a href="sub/trip_sub01.html">부산</a></li>
+                                <li><a href="sub/trip_sub01.html">강원</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="camera.html">카메라
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub2">
+                                <li><a href="sub/camera.html">Dolly's카메라</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="event.html">이벤트
+                     <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub3">
+                                <li><a href="sub/event.html">진행중인 이벤트</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="message.html">후기
+                    <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub4">
+                                <li><a href="sub/message.html">후기</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+            </ul>
+            <div class="panel header">
+                <div class="mar">
+                    <div class="mar_inner">
+                    <ul class="sub sub5">
+                        <li><a href="about.html">DollyTour는</a></li>
+                    </ul>
+                    <ul class="sub sub1">
+                        <li><a href="trip_sub01.html">제주</a></li>
+                        <li><a href="trip_sub01.html">부산</a></li>
+                        <li><a href="trip_sub01.html">강원</a></li>
+                    </ul>
+                    <ul class="sub sub2">
+                        <li><a href="camera.html">Dolly's카메라</a></li>
+                    </ul>
+                    <ul class="sub sub3">
+                        <li><a href="event.html">진행중인 이벤트</a></li>
+                    </ul>
+                    <ul class="sub sub4">
+                        <li><a href="message.html">후기</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <script>
+                $(function(){
+                            $(".panel").hide();
+                            $(".nav li").mouseenter(function(){
+                                $(".panel").stop().slideDown();
+                            });
+                            $("#header").mouseleave(function(){
+                            $(".panel").stop().slideUp();
+                             });
+                         });
+            </script>
+           <!--<script>
+                $(function(){
+                    $(".nav a").mouseover(function(){
+                        $(".panel").stop()
+                        .slideDown();
+                    });
+        
+                    $(".nav a").mouseout(function(){
+                        $(".panel").stop()
+                        .slideUp();
+                    });
+                });
+            </script>-->
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/main.js"></script>
+    
+    <div id="about_top">
+        <div class="about_top_text">
+            <p class="att1">
+                <span class="big_blue">Dollytour</span><br>
+                추억으로 남기는<br>
+                단 하나의 여행
+            </p>
+            <p class="att2">
+                남들과 같은 여행을 떠나서 편안히 즐기는 여행도 좋지만<br>
+                조금 다르게 남들이 가보지 못한 특별한 나만의 장소를 만나<br>
+                나만의 여행을 남겨보세요.
+            </p>
+        </div>
+    </div>
+
+    <div id="about_middle">
+       
+            <div class="abimg1" data-aos="fade-right" data-aos-duration="1500">
+            </div>
+           
+            <div class="abimg2" data-aos="fade-up" data-aos-duration="1500">
+            
+            <div class="about_middle_text">
+                <p class="amt" data-aos="fade-down" data-aos-duration="1500">
+                    <span class="amt1">“</span>
+                    <span class="amt2">A trip full of <br></span>
+                    <span class="amt3">memories</span>
+                    <span class="amt1 amt4">”</span>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="about_bot">
+        <div class="about_bot">
+            <p class="about_img3" data-aos="fade-right" data-aos-duration="1500"><img src="../images/sub1/about_bot_1.jpg" alt=""></p>
+            <p class="about_img4" data-aos="fade-up" data-aos-duration="1500">
+            <img src="../images/sub1/about_bot_2.jpg" alt="" ></p>
+            <div class="abt_top" data-aos="fade-left" data-aos-duration="1500">
+                <p class="abt1">
+                    Dolly <span class="abt_small">[dolly]</span>
+                </p>
+                <p class="abt2">
+                    이동 촬영을 위해 이동하는 물체에 카메라를 부착 후<br>
+                    카메라를 이동시키며 촬영하는 기법
+                </p>
+            </div>
+            <div class="abt_bot" data-aos="fade-left" data-aos-duration="1500">
+                <p class="abt3">
+                    돌리투어는 <br> "여행에서 사람들이 가치있는 
+                    뭔가를<br>  찾으면 좋겠다."라는 생각에서 
+                    시작되었습니다.<br>  <br> 그것이 가족과 친구 혹은
+                    혼자서 가지는 여유로운 시간, <br> 여행을 떠나 찍은 사진, 좋은 기억만 남겼던 여행  요즘은 <br>사람들이 시간이 없어서, 바빠서, 힘들어서
+                    이런 여러 이유 때문에 <br> 마음 편하게 여행을
+                    즐기지 못합니다. 돌리투어는 그래도 사람들이 <br>여행을 떠나는 이유를 찾아서 바쁜 일상속에서 벗어나 여유로운<br> 시간을 가지면 좋겠어서 돌리투어를 만들게 되었습니다.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about_tour" >
+        <div class="tour_box1">
+            <p class="box_1" data-aos="fade-up" data-aos-duration="1500">T</p>
+            <p class="box_2" data-aos="fade-up" data-aos-duration="2500">
+                Travel<br>
+                <span>여행</span>
+            </p>
+            <p class="box_3" data-aos="fade-up" data-aos-duration="2500">
+                여행을 싫어하는 사람은 거의 없을겁니다.
+                하지만 여행을 준비하기 싫어하는 사람은
+                생각보다 많습니다. 돌리투어가 그 준비를
+                도와 드리겠습니다. 강원, 부산, 제주의
+                각 도시의 특성에 맞춰 각기 다른 패키지로
+                여러분의 여행을 죽을때까지 잊지 못할
+                추억으로 남겨 드리겠습니다. 
+            </p>
+        </div>
+        <div class="tour_box2">
+            <p class="box_1" data-aos="fade-up" data-aos-duration="1500">O</p>
+            <p class="box_2" data-aos="fade-up" data-aos-duration="2500">
+                Objectives<br>
+                <span>목적</span>
+            </p>
+            <p class="box_3" data-aos="fade-up" data-aos-duration="2500">
+                여행의 목적이 무엇이냐 하면 사람들은 쉽게
+                대답하지 못합니다. 돌리투어가 그런 목적을
+                만들어 드리고 싶습니다. 여행의 모든 순간을
+                사진으로 기록해 계속 기억에 남는 좋은 여행
+                추억으로 남는 여행을 드리고 싶습니다.
+                돌리투어의 카메라로 여러 장면들을 남겨
+                여행의 목적을 찾아보세요.
+            </p>
+        </div>
+        <div class="tour_box3">
+            <p class="box_1" data-aos="fade-up" data-aos-duration="1500">U</p>
+            <p class="box_2" data-aos="fade-up" data-aos-duration="2500">
+                Unfettered<br>
+                <span>자유</span>
+            </p>
+            <p class="box_3" data-aos="fade-up" data-aos-duration="2500">
+                여행을 떠나는 가장 큰 이유는 일상속에서
+                벗어나 자유를 만끽하고 싶은게 가장 큰
+                이유일거라 생각해 돌리투어는 다른 여행
+                보다 자유에 초점을 맞췄습니다. 기본적인
+                틀은 제공하지만 그 안에 내용은 여행자의
+                선택입니다. 작은 선택을 모아서 여러분이
+                나만의 여행을 만들어 주세요
+            </p>
+        </div>
+        <div class="tour_box4">
+            <p class="box_1" data-aos="fade-up" data-aos-duration="1500">R</p>
+            <p class="box_2" data-aos="fade-up" data-aos-duration="2500">
+                Remember<br>
+                <span>기억</span>
+            </p>
+            <p class="box_3" data-aos="fade-up" data-aos-duration="2500">
+                여행을 떠나고 다시 일상으로 돌아와 힘들
+                때마다 여행의 기억을 떠올리며 마음이 채
+                워지는 그런 경험이 있다면 누구든 여행을
+                좋아할겁니다. 하지만 기억에서 끝나지 않
+                고 사진으로 여행을 남겨둔다면 기억이 희
+                미해 져도 언제든 다시 추억할 수 있습니다.
+                돌리투어가 그런 여행을 드리겠습니다.
+            </p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="foot_inner">
+            <h1><a href="#"><img src="../images/logo_footer.png" alt="logo" class="foot_logo"></a></h1>
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">여행약관·이용약관</a></li>
+                <li><a href="#">여행보험</a></li>
+                <li><a href="#">마케팅제휴문의</a></li>
+                <li><a href="#">온라인제휴안내</a></li>
+                <li><a href="#">여행플래너</a></li>
+            </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="foot_down">
+            <p class="foot_text">돌리투어대표 : 김민혁 ｜ 주소 : 부산광역시 중구 중앙대로 26 ｜ 이메일 : rlaalsgur1015@naver.com<br>
+            사업자등록번호 : 100-01-0000 ｜ 관광사업자 등록번호 : 제2022-000001호<br>
+            COPYRIGHT 1989-2019 DOLLYTOUR. ALL RIGHTS RESERVFD .</p>
+            <ul class="foot_sns">
+                <li><a href="#"><img src="../images/instagram_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/youtube_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/facebook_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/twitter_footer.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

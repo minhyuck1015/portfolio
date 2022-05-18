@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Godo';
+    src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'BareunBatang';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+  }
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #262626;}
+body{
+    font-family: 'Godo';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #2e2e2e;
+    min-width: 1320px;
+}
+
+/*header*/
+#event_main{
+    margin-top: 44px;
+    background: url(../images/sub1/text_back03.jpg) repeat center;
+    height: 257px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.event_text{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main_p1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 44px;
+    padding-top: 90px;
+}
+.main_p2{
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+#about_top{
+    background: url(../images/sub1/about_top.jpg) no-repeat center bottom;
+
+    height: 700px;
+    /* width: 100%; */
+    margin-top: 44px;
+}
+.about_top_text{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 75px 0 0 300px;
+    box-sizing: border-box;
+}
+.big_blue{
+    font-weight: 900;
+    color: #233c6d;
+    font-size: 32px;
+}
+.att1{
+    font-size: 50px;
+    line-height: 59px;
+    font-family: 'IBMPlexSansKR-Regular';
+    
+    font-weight: 900;
+    
+}
+.att2{
+    margin: 20px 0;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #484e5b;
+}
+#about_middle{
+    height: 512px;
+}
+
+.abimg1{
+    width: 60%;
+    float: left;
+    background: url(../images/sub1/about_middle_left.jpg) no-repeat top right;
+    overflow: hidden;
+    height: 522px;
+}
+.abimg2{
+    width: 40%;
+    float: right;
+    background: url(../images/sub1/about_middle_right.jpg) no-repeat top 216px left 71px;
+    height: 607px;
+}
+.about_middle_text{
+
+    text-align: center;
+    color: #192845;
+}
+.amt{
+    position: absolute;
+    top: 22px;
+    left: 50px;
+    text-align: left;
+}
+.amt1{
+    font-size: 72px;
+}
+.amt2{
+    font-size: 50px;
+    line-height: 36px;
+}
+.amt3{
+    font-size: 50px;
+    line-height: 72px;
+    padding-left: 30px;
+}
+.amt4{
+    line-height: 90px;
+}
+.about_bot{
+    width: 1320px;
+    margin: 0 auto;
+    height: 768px;
+    position: relative;
+}
+.about_img3{
+    position: absolute;
+    z-index: 1;
+    top: 84px;
+    left: 150px;
+    height: 456px;
+    overflow: hidden;
+}
+.about_img4{
+    position: absolute;
+    z-index: 10;
+    left: 485px;
+    top: 350px;
+    box-shadow: -5px -5px 12px rgb(0 0 0 / 20%);
+    height: 260px;
+    overflow: hidden;
+}
+.abt_top{
+    position: absolute;
+    left: 910px;
+    top: 138px;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-weight: bold;
+    color: #192845;
+    text-align: right;
+}
+.abt1{
+    font-size: 75px;
+    padding-top: 43px;
+}
+.abt_small{
+    font-size: 60px;
+}
+.abt2{
+    font-size: 16px;
+    margin-top: 45px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #7f7f83;
+}
+.abt3{
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.abt_bot{
+    font-family: 'IBMPlexSansKR-Light';
+    position: absolute;
+    right: 54px;
+    top: 365px;
+    font-size: 16px;
+    line-height: 28px;
+    width: 399px;
+    text-align: right;
+}
+#about_tour{
+    width: 1320px;
+    margin: 0 auto;
+    height: 470px;
+}
+#about_tour div{
+    width: 220px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.tour_box1{
+    margin-left: 160px;
+}
+.box_1{
+    font-family: 'IBMPlexSansKR-Bold';
+    font-size: 120px;
+    color: #192845;
+    font-weight: bold;
+}
+.box_2{
+    font-family: 'IBMPlexSansKR-Bold';
+    font-size: 20px;
+    margin-top: 50px;
+}
+.box_2 span{
+    font-family: 'IBMPlexSansKR-bold';
+    font-size: 15px;
+    padding-left: 3px;
+    color: #697e97;
+}
+.box_3{
+    font-family: 'IBMPlexSansKR-Light';
+    /* font-size: 16px; */
+    /* line-height: 24px; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+}

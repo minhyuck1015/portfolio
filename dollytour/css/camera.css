@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Godo';
+    src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'BareunBatang';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+  }
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #262626;}
+body{
+    font-family: 'Godo';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #2e2e2e;
+    min-width: 1320px;
+}
+#event_main{
+    margin-top: 44px;
+    background: url(../images/sub1/text_back03.jpg) repeat center;
+    height: 257px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.event_text{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main_p1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 44px;
+    padding-top: 90px;
+}
+.main_p2{
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+#canon{
+    width: 1320px;
+    margin: 0 auto;
+    height: 420px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.canon_top{
+    padding-bottom: 70px;
+}
+.canon_top h3{
+    font-family: 'Godo';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    float: left;
+}
+.canon_top_right{
+    float: right;
+    margin-top: -5px;
+}
+.canon_bot_left{
+    float: left;
+}
+.canon_bot_right{
+    float: right;
+    width: 480px;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 24px;
+}
+.canon_bot_right .p1{
+    text-align: right;
+}
+.canon_bot_right .p2{
+    text-align: right;
+}
+#camera_back{
+    height: 320px;
+    background: url(../images/sub1/camera_back.jpg) repeat center top;
+    background-attachment: fixed;
+}
+#sony{
+    width: 1320px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 100px;
+}
+.sony_top{
+    padding-bottom: 70px;
+}
+.sony_top h3{
+    font-family: 'Godo';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    float: left;
+}
+.sony_top_left{
+    float: right;
+    margin-top: -5px;
+}
+.sony_bot_right{
+    float: right;
+}
+.sony_bot_left{
+    float: left;
+    width: 480px;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 24px;
+}
+.sony_bot_left .p1{
+    text-align: left;
+}
+.p2{
+    text-align: left;
+    margin-top: 110px;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>Dollytour</title>
+    <link rel="stylesheet" href="../css/trip.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!--header제이쿼리-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!--header제이쿼리-->
+</head>
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1><a href="../index.html" class="logo"><img src="../images/logo.png" alt=""></a></h1>
+            <ul class="nav">
+                <li><a href="about.html">About
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub5">
+                                <li><a href="sub/about.html">DollyTour는</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="trip.html">여행상품
+                   <!-- <div class="panel header">
+                         <div class="mar">
+                            <ul class="sub sub1">
+                                <li><a href="sub/trip_sub01.html">제주</a></li>
+                                <li><a href="sub/trip_sub01.html">부산</a></li>
+                                <li><a href="sub/trip_sub01.html">강원</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="camera.html">카메라
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub2">
+                                <li><a href="sub/camera.html">Dolly's카메라</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="event.html">이벤트
+                     <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub3">
+                                <li><a href="sub/event.html">진행중인 이벤트</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="message.html">후기
+                    <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub4">
+                                <li><a href="sub/message.html">후기</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+            </ul>
+            <div class="panel header">
+                <div class="mar">
+                    <div class="mar_inner">
+                    <ul class="sub sub5">
+                        <li><a href="sub/about.html">DollyTour는</a></li>
+                    </ul>
+                    <ul class="sub sub1">
+                        <li><a href="sub/trip_sub01.html">제주</a></li>
+                        <li><a href="sub/trip_sub01.html">부산</a></li>
+                        <li><a href="sub/trip_sub01.html">강원</a></li>
+                    </ul>
+                    <ul class="sub sub2">
+                        <li><a href="sub/camera.html">Dolly's카메라</a></li>
+                    </ul>
+                    <ul class="sub sub3">
+                        <li><a href="sub/event.html">진행중인 이벤트</a></li>
+                    </ul>
+                    <ul class="sub sub4">
+                        <li><a href="sub/message.html">후기</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <script>
+                $(function(){
+                            $(".panel").hide();
+                            $(".nav li").mouseenter(function(){
+                                $(".panel").stop().slideDown();
+                            });
+                            $("#header").mouseleave(function(){
+                            $(".panel").stop().slideUp();
+                             });
+                         });
+            </script>
+           <!--<script>
+                $(function(){
+                    $(".nav a").mouseover(function(){
+                        $(".panel").stop()
+                        .slideDown();
+                    });
+        
+                    $(".nav a").mouseout(function(){
+                        $(".panel").stop()
+                        .slideUp();
+                    });
+                });
+            </script>-->
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/main.js"></script>
+
+    <div id="event_main">
+        <div class="event_text">
+            <p class="main_p1">DollyTour's 여행들</p>
+            <p class="main_p2">돌리투어만의 제주, 부산, 강원으로 나뉘는<br>
+                특색있는 여행을 만나보세요</p>
+        </div>
+    </div>
+
+    <div id="event_list">
+        <h2>여행코스</h2>
+        <div class="banner">
+            <div class="banner_inner">
+                <a href="../sub/trip_sub01.html"><img src="../images/sub1/trip1.jpg" alt="banner" class="list_img"></a>
+                <p class="list1"><a href="../sub/trip_sub01.html">제주도 오름 코스 여행</a></p>
+                <p class="list2">도시 옆에 숨어있는 많은 오름들<br>  
+                    제주도 곳곳에 숨어있는 아름다운 오름으로의 여행<br>
+                    자세한 사항은 배너 또는 오른쪽 더보기를 클릭해주세요. </p>
+                <p class="list3">1박당 20,000원 ~ </p>
+            </div>
+            <p class="more"><a href="../sub/trip_sub01.html">더보기</a></p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="banner">
+            <div class="banner_inner">
+                <a href="trip_sub01.html"><img src="../images/sub1/trip2.jpg" alt="banner" class="list_img"></a>
+                <p class="list1"><a href="trip_sub01.html">
+                바다와 도시가 공존하는 부산여행</a></p>
+                <p class="list2">부산의 대표 포토스팟으로 떠나 인생샷을 남겨보자<br>
+                    사진도 찍고 맛있는 부산의 먹거리도 먹으며 힐링여행<br>
+                    자세한 사항은 배너 또는 오른쪽 더보기를 클릭해주세요. </p>
+                <p class="list3">1박당 20,000원 ~ </p>
+            </div>
+            <p class="more"><a href="trip_sub01.html">더보기</a></p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="banner">
+            <div class="banner_inner">
+                <a href="trip_sub01.html"><img src="../images/sub1/trip3.jpg" alt="banner" class="list_img"></a>
+                <p class="list1"><a href="trip_sub01.html">강원도에서 자연과 함께하는 여행</a></p>
+                <p class="list2">바쁘게 움직이는 도시에서 벗어나<br>
+                    자연에서 푹 쉬어보세요<br>
+                    자세한 사항은 배너 또는 오른쪽 더보기를 클릭해주세요 </p>
+                <p class="list3">1박당 20,000원 ~ </p>
+            </div>
+            <p class="more"><a href="trip_sub01.html">더보기</a></p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="foot_inner">
+            <h1><a href="#"><img src="../images/logo_footer.png" alt="logo" class="foot_logo"></a></h1>
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">여행약관·이용약관</a></li>
+                <li><a href="#">여행보험</a></li>
+                <li><a href="#">마케팅제휴문의</a></li>
+                <li><a href="#">온라인제휴안내</a></li>
+                <li><a href="#">여행플래너</a></li>
+            </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="foot_down">
+            <p class="foot_text">돌리투어대표 : 김민혁 ｜ 주소 : 부산광역시 중구 중앙대로 26 ｜ 이메일 : rlaalsgur1015@naver.com<br>
+            사업자등록번호 : 100-01-0000 ｜ 관광사업자 등록번호 : 제2022-000001호<br>
+            COPYRIGHT 1989-2019 DOLLYTOUR. ALL RIGHTS RESERVFD .</p>
+            <ul class="foot_sns">
+                <li><a href="#"><img src="../images/instagram_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/youtube_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/facebook_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/twitter_footer.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

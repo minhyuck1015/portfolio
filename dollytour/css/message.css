@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Godo';
+    src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'BareunBatang';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+  }
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #262626;}
+body{
+    font-family: 'Godo';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #2e2e2e;
+    min-width: 1320px;
+}
+
+
+#event_main{
+    margin-top: 70px;
+    background: url(../images/sub1/text_back04.jpg) repeat center;
+    height: 257px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.event_text{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main_p1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 44px;
+    padding-top: 90px;
+}
+.main_p2{
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 30px;
+}
+#event_list{
+    margin: 0 auto 100px;
+    width: 1320px;
+    /* height: 900px; */
+    overflow: hidden;
+}
+#event_list h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin: 80px 0 10px 0;
+    padding-bottom: 25px;
+    border-bottom: 5px double #d7d7d7;
+}
+#event_list h3{
+    font-size: 18px;
+    font-family: 'IBMPlexSansKR-Regular';
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+@chrset"utf-8";
+
+#section{
+	width:1320px;
+	background-color: #fff;
+	padding:0	0;
+	text-align:center;
+	margin: 0 auto;
+}
+#box1{
+	
+	margin:0	auto;
+	position:relative;
+	padding:20px	0;
+	display:inline-block;
+	
+}
+#box1>li{
+	float:left;
+	display:inline-block;
+	font-size:18px;
+	text-align:center;
+	margin:0	200px;
+}
+.tap{
+	cursor:pointer;
+	display:inline-block;
+}
+#box1>li.on>.box1_1{
+
+	width:100%;
+	padding:20px;
+	box-sizing:border-box;
+	
+
+}
+#box1>li>.box1_1{
+	height:0;
+	overflow:hidden;
+}
+
+.box1_1{
+	width:1320px;
+	text-align:left;
+	padding:10px	0	20px	0;
+}
+
+.accordion:hover{
+	color:#000;
+
+}
+.accordion{
+	font-size:18px;
+	color:#535353;
+	cursor:pointer;
+	padding:10px	0;
+    margin-top: 30px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.acc1{
+    margin-top: 0px;
+}
+.panel2{
+	max-height:0;
+	overflow:hidden;
+	transition:max-height	0.3s	ease-out;
+	border-bottom: 2px solid gray;
+}
+.ylyl{
+	float: left;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 15px;
+}
+.bo1{
+	margin-top: 5px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 16px;
+   
+}
+.acc_right{
+    float: right;
+    font-size: 20px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.pa_ri{
+    float: right;
+    margin-top: 194px;
+    font-size: 16px;
+    font-family: 'IBMPlexSansKR-Regular';
+}

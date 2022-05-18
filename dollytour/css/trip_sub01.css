@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Godo';
+    src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'BareunBatang';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+  }
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #262626;}
+body{
+    font-family: 'Godo';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #2e2e2e;
+    min-width: 1320px;
+}
+
+
+#event_main{
+    margin-top: 70px;
+    background: url(../images/sub1/text_back02.jpg) repeat center;
+    height: 257px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.event_text{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main_p1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 44px;
+    padding-top: 90px;
+}
+.main_p2{
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+#trip{
+    width: 1320px;
+    margin: 70px auto;
+    height: 2700px;
+}
+.trip_top{
+    height: 464px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.img{
+    float: left;
+    margin-right: 45px;
+}
+.text_box{
+    float: left;
+    width: 493px;
+}
+.text_box p{
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.p1{
+    font-size: 26px;
+}
+.p2{
+    font-size: 13px;
+    color: #838383;
+    margin-bottom: 80px;
+}
+.p3{
+    padding-bottom: 35px;
+    border-bottom: 1px solid #969696;
+}
+.p4{
+    margin-top: 35px;
+}
+.p5{
+    font-size: 13px;
+    margin-top: -8px;
+}
+.p6{
+    text-align: right;
+    margin-top: -40px;
+    font-size: 32px;
+}
+.mini{
+    font-size: 22px;
+}
+.p7{
+    margin-top: 35px;
+}
+.jase{
+    height: 65px;
+    background-color: #73bed8;
+    margin-top: 75px;
+}
+.jase p{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 20px;
+}
+.trip_bot{
+    width: 1318px;
+    border: 1px solid #969696;
+}
+.trip_img{
+    width: 1080px;
+    margin: 90px auto;
+}
+.button{
+    width: 1320px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.return{
+    padding: 10px 20px;
+    border: 1px solid #acacac;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 16px;
+}

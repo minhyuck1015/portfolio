@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>Dollytour</title>
+    <link rel="stylesheet" href="../css/trip_sub01.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos js 연결-->		
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script><!-- 달력 -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1><a href="../index.html" class="logo"><img src="../images/logo.png" alt=""></a></h1>
+            <ul class="nav">
+                <li><a href="about.html">About
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub5">
+                                <li><a href="sub/about.html">DollyTour는</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="trip.html">여행상품
+                   <!-- <div class="panel header">
+                         <div class="mar">
+                            <ul class="sub sub1">
+                                <li><a href="sub/trip_sub01.html">제주</a></li>
+                                <li><a href="sub/trip_sub01.html">부산</a></li>
+                                <li><a href="sub/trip_sub01.html">강원</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="camera.html">카메라
+                    <!-- <div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub2">
+                                <li><a href="sub/camera.html">Dolly's카메라</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="event.html">이벤트
+                     <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub3">
+                                <li><a href="sub/event.html">진행중인 이벤트</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+                <li><a href="message.html">후기
+                    <!--<div class="panel header">
+                        <div class="mar">
+                            <ul class="sub sub4">
+                                <li><a href="sub/message.html">후기</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </a></li>
+            </ul>
+            <div class="panel header">
+                <div class="mar">
+                    <div class="mar_inner">
+                    <ul class="sub sub5">
+                        <li><a href="about.html">DollyTour는</a></li>
+                    </ul>
+                    <ul class="sub sub1">
+                        <li><a href="trip_sub01.html">제주</a></li>
+                        <li><a href="trip_sub01.html">부산</a></li>
+                        <li><a href="trip_sub01.html">강원</a></li>
+                    </ul>
+                    <ul class="sub sub2">
+                        <li><a href="camera.html">Dolly's카메라</a></li>
+                    </ul>
+                    <ul class="sub sub3">
+                        <li><a href="event.html">진행중인 이벤트</a></li>
+                    </ul>
+                    <ul class="sub sub4">
+                        <li><a href="message.html">후기</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <script>
+                $(function(){
+                            $(".panel").hide();
+                            $(".nav li").mouseenter(function(){
+                                $(".panel").stop().slideDown();
+                            });
+                            $("#header").mouseleave(function(){
+                            $(".panel").stop().slideUp();
+                             });
+                         });
+            </script>
+           <!--<script>
+                $(function(){
+                    $(".nav a").mouseover(function(){
+                        $(".panel").stop()
+                        .slideDown();
+                    });
+        
+                    $(".nav a").mouseout(function(){
+                        $(".panel").stop()
+                        .slideUp();
+                    });
+                });
+            </script>-->
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/main.js"></script>
+
+    <div id="event_main">
+        <div class="event_text">
+            <p class="main_p1">DollyTour's 여행들</p>
+            <p class="main_p2">돌리투어만의 제주, 부산, 강원으로 나뉘는<br>
+                특색있는 여행을 만나보세요</p>
+        </div>
+    </div>
+
+    <div id="trip">
+        <div class="trip_top">
+            <div class="img">
+                <img src="../images/sub1/jeju_top.png" alt="trip">
+            </div>
+            <div class="text_box">
+                    <p class="p1">제주도 오름코스 여행</p>
+                    <p class="p2">Jeju rise road tour</p>
+                    <p class="p3">금오름, 사라오름, 용눈이오름, 새별오름, 도두봉</p>
+                    <p class="p4">1박 요금 최저가</p>
+                    <p class="p5">세금 포함</p>
+                    <p class="p6">20,000 <span class="mini">원~</span></p>
+                    <p class="p7">※2박부터 예약가능</p>
+                    <div class="jase">
+                        <p>자세한 문의사항은 010-2916-1250으로 전화주세요</p>
+                    </div>
+            </div>
+        </div>
+        
+        <div id="main_banner">
+
+            <div class="reservation">
+                
+                <div class="select">
+                    <input type="text" id="datepicker" placeholder="CHECK IN" class="day">
+                    <input type="text" id="datepicker1" placeholder="CHECK OUT" class="day">
+                    <select>
+                        <option>성인</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                    </select>
+                    <select>
+                        <option>아동</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                    </select>
+                    <select class="pet_select">
+                        <option>반려동물</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="search"><a href="#">검색</a></div>
+            </div>
+        </div>
+
+<script>
+    AOS.init(); //에오스
+    
+    //달력 START
+    $( function() {
+    $( "#datepicker" ).datepicker();
+    } );
+    $.datepicker.setDefaults({
+    dateFormat: 'yy-mm-dd' //Input Display Format 변경
+    });
+    $.datepicker.setDefaults({
+    monthNamesShort: ['1','2','3','4','5','6','7','8','9','10','11','12'] //달력의 월 부분 텍스트
+    ,monthNames: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] //달력의 월 부분 Tooltip 텍스트
+    ,dayNamesMin: ['일','월','화','수','목','금','토'] //달력의 요일 부분 텍스트
+    ,dayNames: ['일요일','월요일','화요일','수요일','목요일','금요일','토요일'] //달력의 요일 부분 Tooltip 텍스트
+    });
+    $( function() {
+    $( "#datepicker1" ).datepicker();
+    } );
+    $.datepicker.setDefaults({
+    dateFormat: 'yy-mm-dd' //Input Display Format 변경
+    });
+    $.datepicker.setDefaults({
+    monthNamesShort: ['1','2','3','4','5','6','7','8','9','10','11','12'] //달력의 월 부분 텍스트
+    ,monthNames: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] //달력의 월 부분 Tooltip 텍스트
+    ,dayNamesMin: ['일','월','화','수','목','금','토'] //달력의 요일 부분 텍스트
+    ,dayNames: ['일요일','월요일','화요일','수요일','목요일','금요일','토요일'] //달력의 요일 부분 Tooltip 텍스트
+    });
+    //달력 END
+    
+    
+</script>
+
+    <div class="trip_bot">
+        <div class="trip_img"><img src="../images/sub1/trip_middle.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="button">
+        <a href="trip.html" class="return">목록으로</a>
+    </div>
+
+
+    <div id="footer">
+        <div class="foot_inner">
+            <h1><a href="#"><img src="../images/logo_footer.png" alt="logo" class="foot_logo"></a></h1>
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">여행약관·이용약관</a></li>
+                <li><a href="#">여행보험</a></li>
+                <li><a href="#">마케팅제휴문의</a></li>
+                <li><a href="#">온라인제휴안내</a></li>
+                <li><a href="#">여행플래너</a></li>
+            </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="foot_down">
+            <p class="foot_text">돌리투어대표 : 김민혁 ｜ 주소 : 부산광역시 중구 중앙대로 26 ｜ 이메일 : rlaalsgur1015@naver.com<br>
+            사업자등록번호 : 100-01-0000 ｜ 관광사업자 등록번호 : 제2022-000001호<br>
+            COPYRIGHT 1989-2019 DOLLYTOUR. ALL RIGHTS RESERVFD .</p>
+            <ul class="foot_sns">
+                <li><a href="#"><img src="../images/instagram_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/youtube_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/facebook_footer.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/twitter_footer.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

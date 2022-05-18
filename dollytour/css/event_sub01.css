@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Godo';
+    src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'BareunBatang';
+    font-style: normal;
+    font-weight: 400;
+    src: url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+  }
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #262626;}
+body{
+    font-family: 'Godo';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #2e2e2e;
+    min-width: 1320px;
+}
+
+
+
+#event_main{
+    margin-top: 70px;
+    background: url(../images/sub1/text_back.jpg) repeat center;
+    height: 257px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.event_text{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main_p1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 44px;
+    padding-top: 90px;
+}
+.main_p2{
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 30px;
+}
+#event_list{
+    margin: 0 auto;
+    width: 1320px;
+    height: 2480px;
+}
+#event_list h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin: 80px 0 10px 0;
+    padding-bottom: 25px;
+    border-bottom: 5px double #d7d7d7;
+    margin-bottom: 100px;
+}
+.event_box{
+    width: 1320px;
+    height: 2300px;
+    border: 1px solid #acacac;
+    font-size: 20px;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.event_box td{
+    border: 1px solid #acacac;
+}
+.box1, .box2{
+    height: 57px;
+}
+.td1{
+    width: 114px;
+    text-align: center;
+}
+.td2{
+    padding-left: 30px;
+}
+.box3{
+    text-align: center;
+}
+.button{
+    width: 1320px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.return{
+    padding: 10px 20px;
+    border: 1px solid #acacac;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 16px;
+}
