@@ -185,7 +185,6 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
-		font-family: 'Godo';
 		color: rgba(255, 255, 255, 0.8);
 	}
 
@@ -2811,8 +2810,7 @@ input, select, textarea {
 
 		ul.contact > li {
 			padding: 0;
-			margin: 1.5em 0 0 0;
-			font-family: 'Godo';
+			margin: 1em 0 0 0;
 			color: rgba(255, 255, 255, 0.8);
 		}
 
@@ -3961,4 +3959,26 @@ input, select, textarea {
 		float:left;
 		margin:2px;
 	}
+}
+.split123{
+	margin: 0 0 1em 0;
+}
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.px16{
+    font-family: 'SUIT-Medium';
+	font-size: 16px;
+}
+.suit{
+	font-family: 'SUIT-Medium';
+}
+.con12{
+	margin-bottom: -10px;
+}
+.con123{
+	margin-bottom: 0px;
 }
