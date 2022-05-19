@@ -2899,7 +2899,6 @@ input, select, textarea {
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
-
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
@@ -2937,13 +2936,15 @@ input, select, textarea {
 		.split.style1 > :nth-child(2n) {
 			width: calc(33.33333% - 2.5em);
 		}
-
+		.photo{
+			margin-top: 50px;
+		}
+		
 		@media screen and (max-width: 1680px) {
 
 			.split > * {
 				width: calc(50% - 2em);
 			}
-
 			.split > :nth-child(2n - 1) {
 				padding-right: 2em;
 			}
@@ -2998,6 +2999,7 @@ input, select, textarea {
 				margin: 3em 0 0 0;
 				padding: 3em 0 0 0;
 			}
+
 
 		}
 
