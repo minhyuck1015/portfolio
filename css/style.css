@@ -6,13 +6,7 @@ a{text-decoration: none; color: #333;}
     margin: auto;
 }
 .bg{
-    height: 15940px;
-    background: url(../images/background.jpg) no-repeat center top;
-    background-attachment: fixed;
-    position: relative;
-}
-.bg{
-    height: 15940px;
+    height: 15871px;
     background: url(../images/background.jpg) no-repeat center top;
     background-attachment: fixed;
     position: relative;
